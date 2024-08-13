@@ -160,7 +160,7 @@ Commom elements
 	padding: 19px 35px;
 	text-transform: uppercase;
 	/* color: #242424; */
-	color: #fff;
+	color: #ffffff;
 	line-height: 1;
 	cursor: pointer;
 	text-align: center;
@@ -1200,17 +1200,41 @@ Responsive
 		max-width: calc(100% - 50px);
 	}
 	.panel-header .panel-link {
-		color: #242424;
+		color: #242424
 	}
 	.panel-body p{
 		color: #242424;
 	}
-	.accordion-area .active {
+	 .accordion-area .active {
 		color: #ffffff;
 		background-color: #242424;
 		border-color: #242424;
 	}
-}
+	.site-btn {
+		color: #242424;
+	}
+	.site-btn:hover {
+		color: #dddddd;
+	}
+	.contact-info li {
+		color: #242424;
+	}
+	
+	.contact-info li a {
+		color: #242424;
+	}
+	
+	.copyright p {
+		color: #555555;
+	}
+	
+	.copyright a {
+		color: #555555;
+	}
+	.about-info p{
+		color: #242424;
+	}
+} 
 
 /* Large Mobile :480px. */
 
@@ -1321,6 +1345,35 @@ Responsive
 		background: #242424;
 		margin: 0 5px;
 	}
+	.accordion-area .active {
+		color: #ffffff;
+		background-color: #242424;
+		border-color: #242424;
+	}
+	.panel-header .panel-link {
+		color: #242424
+	}
+	.panel-body p{
+		color: #242424;
+	}
+	 .accordion-area .active {
+		color: #ffffff;
+		background-color: #242424;
+		border-color: #242424;
+	}
+	.site-btn {
+		color: #242424;
+	}
+	.site-btn:hover {
+		color: #dddddd;
+	}
+	.copyright p {
+		color: #555555;
+	}
+	
+	.copyright a {
+		color: #555555;
+	}
 }
 
 /* Small Mobile :320px. */
@@ -1365,7 +1418,6 @@ Responsive
 		margin-right: 15px;
 	}
 }
-
 .brand-btn{
 	position:absolute;
 	top:0;

@@ -170,7 +170,9 @@ Commom elements
 }
 
 .site-btn:hover {
-	color: #242424;
+	color: #ffffff;
+	background-color: #242424;
+	border-color: #242424;
 }
 
 .site-btn img {
@@ -629,13 +631,13 @@ body.push-side #ascrail2000-hr {
 	margin-bottom: 80px;
 }
  
-.site-logo h2 {
+/* .site-logo h2 {
 	font-size: 100px;
 	line-height: 100px;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 18px;
-}
+} */
 
 .site-logo p {
 	font-size: 19px;
@@ -1210,6 +1212,20 @@ Responsive
 	#ascrail2000-hr {
 		max-width: calc(100% - 50px);
 	}
+	.about-info h2{
+		color: #323232;
+	}
+	.about-info p{
+		color: #323232;
+	}
+	.contact-info li{
+		color: #323232;
+	}
+	.site-btn:hover {
+		color: #ffffff;
+		background-color: #242424;
+		border-color: #242424;
+	}
 }
 
 /* Large Mobile :480px. */
@@ -1227,9 +1243,24 @@ Responsive
 		line-height: 70px;
 	}
 	.site-logo p {
-		font-size: 10px;
-		letter-spacing: 8px;
-		padding-left: 9px;
+		color: #ffffff;
+		font-size: 15px;
+		letter-spacing: 3px;
+		/* padding-left: 5px; */
+	}
+	.about-info h2{
+		color: #323232;
+	}
+	.about-info p{
+		color: #323232;
+	}
+	.contact-info li{
+		color: #323232;
+	}
+	.site-btn:hover {
+		color: #ffffff;
+		background-color: #242424;
+		border-color: #242424;
 	}
 	.site-menu-warp {
 		width: 100%;

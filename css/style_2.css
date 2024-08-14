@@ -169,7 +169,9 @@ Commom elements
 }
 
 .site-btn:hover {
-	color: #242424;
+	color: #dddddd;
+	background-color: #242424;
+	border-color: #242424;
 }
 
 .site-btn img {
@@ -183,7 +185,7 @@ Commom elements
 }
 
 .site-btn.sb-solid:hover {
-	color: #fff;
+	color: #ffffff;
 }
 
 .site-btn.sb-dark {
@@ -1205,16 +1207,23 @@ Responsive
 	.panel-body p{
 		color: #242424;
 	}
-	 .accordion-area .active {
+	.accordion-area .panel-header.active .panel-link {
 		color: #ffffff;
 		background-color: #242424;
 		border-color: #242424;
+	}
+	
+	.accordion-area .panel-header.active .panel-link.collapsed {
+		color: #242424;
+		background-color: transparent;
+		border-color: #e1e1e1;
 	}
 	.site-btn {
 		color: #242424;
 	}
 	.site-btn:hover {
-		color: #dddddd;
+		color: #ffffff;
+		background-color: #242424;
 	}
 	.contact-info li {
 		color: #242424;
@@ -1345,27 +1354,29 @@ Responsive
 		background: #242424;
 		margin: 0 5px;
 	}
-	.accordion-area .active {
+	.accordion-area .panel-header.active .panel-link {
 		color: #ffffff;
 		background-color: #242424;
 		border-color: #242424;
 	}
-	.panel-header .panel-link {
-		color: #242424
+	
+	.accordion-area .panel-header.active .panel-link.collapsed {
+		color: #242424;
+		background-color: transparent;
+		border-color: #e1e1e1;
 	}
 	.panel-body p{
 		color: #242424;
 	}
-	 .accordion-area .active {
-		color: #ffffff;
-		background-color: #242424;
-		border-color: #242424;
+	.panel-header .panel-link {
+		color: #242424
 	}
 	.site-btn {
 		color: #242424;
 	}
 	.site-btn:hover {
-		color: #dddddd;
+		color: #ffffff;
+		background-color: #242424;
 	}
 	.copyright p {
 		color: #555555;

@@ -1243,6 +1243,12 @@ Responsive
 	.about-info p{
 		color: #242424;
 	}
+	.element h2{
+		color: #242424;
+	}
+	.element p{
+		color: #242424;
+	}
 } 
 
 /* Large Mobile :480px. */
@@ -1384,6 +1390,12 @@ Responsive
 	
 	.copyright a {
 		color: #555555;
+	}
+	.element h2{
+		color: #242424;
+	}
+	.element p{
+		color: #242424;
 	}
 }
 
